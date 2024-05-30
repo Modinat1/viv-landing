@@ -174,7 +174,7 @@ const Banner = () => {
     // Add more slides as needed
   ];
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <CustomSlide key={index} {...slide} />
