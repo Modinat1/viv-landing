@@ -49,7 +49,7 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full mx-auto">
-      <Heading heading="New Arrivals" />
+      <Heading heading="Featured Products" />
       <Slider {...settings}>
         <div className="px-2">
           <Product

@@ -18,8 +18,8 @@ const LandingPage = () => {
         <BannerBottom/>
         
         <div className="max-w-container mx-auto px-4">
-        <Sale/>
         <NewArrivals/>
+        <Sale/>
         <BestSelling/>
         <SpecialOffer/>
         </div>
